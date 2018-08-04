@@ -1,20 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <url>
-    <loc>http://optiarc.com/categories/</loc>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https:/post/</loc>
+      <lastmod>2017-01-01T00:00:00-10:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>http://optiarc.com/</loc>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https:/publication/</loc>
+      <lastmod>2017-01-01T00:00:00-10:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>http://optiarc.com/tags/</loc>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https:/talk/</loc>
+      <lastmod>2017-01-01T00:00:00-10:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https:/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https:/</loc>
+      <lastmod>2016-04-20T00:00:00-10:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https:/publication_types/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https:/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
   
 </urlset>

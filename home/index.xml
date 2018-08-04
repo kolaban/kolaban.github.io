@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Oscar Ramfelt</title>
+    <link>https:/home/</link>
+    <description>Recent content in Homes on Oscar Ramfelt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -1000</lastBuildDate>
+    
+	<atom:link href="https:/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https:/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
+      
+      <guid>https:/home/about/</guid>
+      <description>Biography Oscar Ramfelt is a graduate student in Oceanography at the University of Hawi&amp;rsquo;i at Manoa, who is a part of the Rappé lab. He graduated from Hawai&amp;rsquo;i Pacific University with a BS in Marine Biology and a minor in computer science. He has worked with multiple projects in both marine biology as well as various projects where he used his knowledge of programming to build programs that helped display data from ocean sensors.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https:/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
+      
+      <guid>https:/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>https:/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
+      
+      <guid>https:/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https:/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
+      
+      <guid>https:/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https:/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
+      
+      <guid>https:/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https:/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
+      
+      <guid>https:/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Custom Section</title>
+      <link>https:/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
+      
+      <guid>https:/home/teaching/</guid>
+      <description>This is an example of using the custom widget to create your own homepage section.
+To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
+    </item>
+    
+    <item>
+      <title>Languages</title>
+      <link>https:/home/languages/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
+      
+      <guid>https:/home/languages/</guid>
+      <description> Java Python Matlab R PHP  </description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https:/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -1000</pubDate>
+      
+      <guid>https:/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https:/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
+      
+      <guid>https:/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
