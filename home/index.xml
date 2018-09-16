@@ -2,104 +2,104 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Oscar Ramfelt</title>
-    <link>https:/home/</link>
+    <link>https://kolaban.github.io/home/</link>
     <description>Recent content in Homes on Oscar Ramfelt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -1000</lastBuildDate>
     
-	<atom:link href="https:/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kolaban.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https:/home/about/</link>
+      <link>https://kolaban.github.io/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
       
-      <guid>https:/home/about/</guid>
+      <guid>https://kolaban.github.io/home/about/</guid>
       <description>Biography Oscar Ramfelt is a graduate student in Oceanography at the University of Hawi&amp;rsquo;i at Manoa, who is a part of the Rappé lab. He graduated from Hawai&amp;rsquo;i Pacific University with a BS in Marine Biology and a minor in computer science. He has worked with multiple projects in both marine biology as well as various projects where he used his knowledge of programming to build programs that helped display data from ocean sensors.</description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>https:/home/publications_selected/</link>
+      <link>https://kolaban.github.io/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
       
-      <guid>https:/home/publications_selected/</guid>
+      <guid>https://kolaban.github.io/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Publications</title>
-      <link>https:/home/publications/</link>
+      <link>https://kolaban.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
       
-      <guid>https:/home/publications/</guid>
+      <guid>https://kolaban.github.io/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https:/home/talks/</link>
+      <link>https://kolaban.github.io/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
       
-      <guid>https:/home/talks/</guid>
+      <guid>https://kolaban.github.io/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>https:/home/posts/</link>
+      <link>https://kolaban.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
       
-      <guid>https:/home/posts/</guid>
+      <guid>https://kolaban.github.io/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https:/home/projects/</link>
+      <link>https://kolaban.github.io/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
       
-      <guid>https:/home/projects/</guid>
+      <guid>https://kolaban.github.io/home/projects/</guid>
       <description> Internship at Palau International Coral Reef Center (March 2018 - May 2018)  </description>
     </item>
     
     <item>
       <title>Custom Section</title>
-      <link>https:/home/teaching/</link>
+      <link>https://kolaban.github.io/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
       
-      <guid>https:/home/teaching/</guid>
+      <guid>https://kolaban.github.io/home/teaching/</guid>
       <description>This is an example of using the custom widget to create your own homepage section.
 To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
     </item>
     
     <item>
       <title>Languages</title>
-      <link>https:/home/languages/</link>
+      <link>https://kolaban.github.io/home/languages/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
       
-      <guid>https:/home/languages/</guid>
+      <guid>https://kolaban.github.io/home/languages/</guid>
       <description> Java Python Matlab R PHP  </description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>https:/home/tags/</link>
+      <link>https://kolaban.github.io/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -1000</pubDate>
       
-      <guid>https:/home/tags/</guid>
+      <guid>https://kolaban.github.io/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https:/home/contact/</link>
+      <link>https://kolaban.github.io/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
       
-      <guid>https:/home/contact/</guid>
+      <guid>https://kolaban.github.io/home/contact/</guid>
       <description></description>
     </item>
     

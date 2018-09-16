@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Oscar Ramfelt</title>
-    <link>https:/categories/</link>
+    <link>https://kolaban.github.io/categories/</link>
     <description>Recent content in Categories on Oscar Ramfelt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     
-	<atom:link href="https:/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kolaban.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
