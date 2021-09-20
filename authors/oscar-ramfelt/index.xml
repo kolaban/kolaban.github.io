@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oscar Ramfelt</title>
+    <link>https://kolaban.github.io/authors/oscar-ramfelt/</link>
+      <atom:link href="https://kolaban.github.io/authors/oscar-ramfelt/index.xml" rel="self" type="application/rss+xml" />
+    <description>Oscar Ramfelt</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 11 May 2021 16:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Oscar Ramfelt</title>
+      <link>https://kolaban.github.io/authors/oscar-ramfelt/</link>
+    </image>
+    
+    <item>
+      <title>Conference for Biological Oceanography Graduate Students 2021</title>
+      <link>https://kolaban.github.io/talk/cbogs-2021/</link>
+      <pubDate>Tue, 11 May 2021 16:00:00 +0000</pubDate>
+      <guid>https://kolaban.github.io/talk/cbogs-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spring 2021 Hawai‘i Data Science Institute Data Science Research Showcase</title>
+      <link>https://kolaban.github.io/talk/hidsi-spring-2021/</link>
+      <pubDate>Fri, 07 May 2021 16:00:00 +0000</pubDate>
+      <guid>https://kolaban.github.io/talk/hidsi-spring-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fall 2020 Data Science Research Showcase</title>
+      <link>https://kolaban.github.io/talk/hidsi-fall-2020/</link>
+      <pubDate>Fri, 11 Dec 2020 16:00:00 +0000</pubDate>
+      <guid>https://kolaban.github.io/talk/hidsi-fall-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference for Biological Oceanography Graduate Students 2020</title>
+      <link>https://kolaban.github.io/talk/cbogs-2020/</link>
+      <pubDate>Wed, 27 May 2020 16:00:00 +0000</pubDate>
+      <guid>https://kolaban.github.io/talk/cbogs-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

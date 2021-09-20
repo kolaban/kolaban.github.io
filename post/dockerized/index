@@ -1,0 +1,94 @@
+---
+title: Reproducibility and Bioinformatics
+subtitle: The importance of reproducible findings in bioinformatics and beyond
+summary:
+authors:
+  - admin
+tags:
+  - Reproducibility
+  - Bioinformatics
+#categories:
+#- Demo
+date: "2020-02-18T14:02:00Z"
+lastmod: "2020-02-18T14:02:00Z"
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+image:
+  placement: 2
+  caption: "Image credit: [**Wonderlane**](https://unsplash.com/photos/6jA6eVsRJ6Q)"
+  focal_point: ""
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+---
+
+## Dependencies the Whole Way Down
+
+My initial introduction to bioinformatics was pretty much a dumpster fire. It seemed at first glance like I was extremely well positioned to work with bioinformatics. I had background knowledge about the molecular biology going on and had a fairly good idea of what the sequencer was doing. I also had worked with programming and the command line a lot during my undergrad as well as during my summer jobs. So when I initially looked at bioinformatics I assumed that it was going to be fairly open and shut, I would write a few lines of code, start some programs, hand over my data, and out would come _science_. **Spoiler: This was not what happened.**
+
+You see, a key part that I had left out was the fact that I had only ever had to work in fairly _clean_ environments. By this I do not mean lab spaces but programs and coding. I had always been able to code up whatever I wanted by starting up an editor and typing away. I had an objective and all that really mattered was that, at the end of the day, my code ran correctly and spit out the numbers or files that I had coded it to do. Many of these projects were small and very few of them required more than a few files to operate. For all of them there was never a need to go outside of the programming language or rely on other program's input and output.
+
+This all changed drastically with my introduction to bioinformatics and my descent into dependency hell. One of the scary things about dependecy hell is that you don't know you're there until its too late. I had installed programs for various analyses, had both Mothur and Qiime installed with however many other packages that had come with them, and numerous others that I wanted to test out. As I began to run more and more analyses I found interesting findings saw cool things you could do with one software and figures that had been created in R with other packages.
+
+The scattered mess came crashing down once I was asked two simple questions:
+
+1. How did you make this figure?
+2. What analyses did you run?
+
+It is common knowledge (hopefully) within science that you have to take notes about what you are doing. Whether it be field work or lab work you have to take notes on e.g. where a sample comes from, how much of a reagant you used, how long a sample was mixed for, and any other details. The reason for this is fairly obvious, if you find something really interesting you want to be able to replicate it yourself and once you publish the finding you want your fellow scientists to be able to reproduce your results. If other people or you yourself can't replicate the findings well then, in the word of Karl Popper:
+
+> ...non-reproducible single occurrences are of no significance to science.
+>
+> Karl Popper, The Logic of Scientific Discovery, Routledge, London, 1992, p. 66.
+
+Looking back I realized what had happened, while I was well versed in taking notes in my lab notebook thanks to numerous course labs that had forced me to carry around a lab notebook and record what I did. It had clearly not translated into an understanding that it is important to do the same when it comes to the computer.
+
+## How to save yourself from making the same mistakes
+
+So how might you avoid the same mistakes that I made? Based on the previous paragraph it might seem obvious. Keep a notebook with everything you do in your analyses and with the different programs you used. If you do this you'll be fine... right?
+
+While this is a good first step it doesn't account for some of the more unique aspects of reproducing computational findings. One of the easiest examples of this is when it comes to reagants. If you say that you added 2mL of a chemical to a vial it is fairly clear what you did. As long as you give the name of the chemical, the amount, and how you used it someone else can replicate and do the same thing that you did. This is not as clear cut when it comes to computational analyses.
+
+As an example lets say that we are using a program named _Top_ to calculate the average of each column in a table.
+
+| Apple | Banana | Kiwi |
+| ----- | ------ | ---- |
+| 10    | 20     | 5    |
+| 11    | 2      | 3    |
+| 10    | 40     | 9    |
+
+This gives us the average for each column:
+
+- Apple = 10.3
+- Banana = 20.6
+- Kiwi = 5.6
+
+However, lets say that we write this all down and document it well, but a year later someone else downloads the data we used and goes to the website for Top and downloads the program and runs the same analysis. But instead of our results they get:
+
+- Apple = 11.6
+- Banana = 5.3
+- Kiwi = 19.6
+
+Clearly something has gone wrong and if you have a sharp eye you might notice that we are still taking the averages, just not of the columns but the rows! After scanning the documentation it turns out that 6 months after we ran our analysis the creators of Top decided that since a larger portion of their userbase calculates the average for rows compared to columns that they would change the default to be the average of rows.
+
+This is a fairly typical example of how code is not static like reagants but very fluid. Documenting what program you used is a good start, but other things like the version of the primary program and the versions of any packages that the program uses are equally as important.
+
+## Tools
+
+Luckily for me and you we are not the first to run into this problem. Most bioinformatics pipelines and programming languages have package managers that help you keep track of what packages and programs you are running, their respective versions, and downloading new ones. One of the most popular of these is the all in one package manager for python and R [Anaconda](https://www.anaconda.com/) and while it can't do everything it is very good at what it does. By default it helps you download packages, keep track of where they are stored, and produce clean documents that show the exact versions of all the various programs that you have been using. Anaconda lets you create virtual environments that can be thought of as controlled areas where you can run code and programs that you have downloaded and know that you are using a specific version. There are some issues with it but largely it has succeeded in helping people keep track of the packages that they use and helping others recreate their findings.
+
+Another, slightly more advanced, tool is called [Docker](https://www.docker.com/) which uses images and containers. These containers are one step above virtual environments, but not quite at the level of virtual machines. They allow you to e.g. package an entire linux operating system together with a set of tools in an almost completely isolated environment. This means that you can essentially be sure that you can recreate the exact same environment on different computers or servers. While this might be overkill for some projects that only use a single program or package for larger more complicated pipelines docker offers a way to isolate your pipeline and environment from the world so that if someone down the road wants to rerun your analysis with your data they can download the docker container and the data and essentially be sure that they are using the exact same tools that you did to process the data.
+
+## Conclusion
+
+The key detail is that programming and computational analyses are just as much a part of the scientific process as lab work. The choices you make, the programs you use, and the versions of those programs can determine what form your results finally take. While no one can tell you the right pipeline to use or what method will give you the "right" results keeping track of what you do and why you did it can help support your findings and if it turns out that your findings have biases or other issues that same documentation can help you figure out where those issues came from. Because at the end of the day science is a collective effort and being able to reproduce what other scientists do has always been the gold standard.
